@@ -1,0 +1,33 @@
+{
+  "name": "hackerthon_master_planner",
+  "version": "1.0.0",
+  "description": "To provide workplace web services",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azderica/hackerthon_master_planner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Azderica/hackerthon_master_planner/issues"
+  },
+  "homepage": "https://github.com/Azderica/hackerthon_master_planner#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "vue": "^2.5.22",
+    "vue-hot-reload-api": "^2.3.1"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.5.0",
+    "nodemon": "^1.18.9",
+    "parcel-bundler": "^1.11.0",
+    "vue-template-compiler": "^2.5.22"
+  }
+}
